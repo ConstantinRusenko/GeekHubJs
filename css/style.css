@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.wrapper {
+    width: auto;
+    height: 1853px;
+    margin: 0 auto;
+}
+
+.wrapper_logo {
+    width: 73px;
+    height: 73px;
+    padding-top: 21px;
+    padding-left: 25px;
+    float: left;
+}
+
+.header {
+    background: url('../img/head.png') no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 1150px;
+}
+
+.navigation_bar{
+    padding-top: 32px;
+    padding-left: 319px;
+    width: 737px;
+    height: 12px;
+}
+
+.navigation_bar ul li{
+    float: left;
+    display: flex;
+    font-family: Lato;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 60px;
+}
+
+.navigation_bar ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.phrase_top {
+    margin-top: 234px;
+    margin-left: 329px;
+    text-align: left;
+}
+
+.phrase_top p{
+    width: 394px;
+    height: 112px;
+    text-shadow: 0 1px 1px #000000;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+h1 {
+    text-align: left;
+    width: 430px;
+    height: 110px;
+    text-shadow: 0 1px 1px #000000;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 52px;
+    font-weight: 300;
+    line-height: 62px;
+
+}
+
+.rectangle_layer1 {
+    position: absolute;
+    opacity: 0.5;
+    padding-top: 460px;
+    width: 1890px;
+}
+
+.rectangle_layer2 {
+    position: absolute;
+    padding-top: 490px;
+    margin: 0 auto;
+    width: 1890px;
+}
+
+.quote {
+    margin-top: 62px;
+    margin-left: 329px;
+    width: 305px;
+    height: 159px;
+    color: #fe992a;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 28px;
+    font-style: italic;
+    position: absolute;
+}
+
+.phrase_middle {
+    margin-top: 45px;
+    margin-left: 740px;
+    text-align: left;
+    position: absolute;
+    border-left: 1px solid gainsboro;
+}
+
+.phrase_middle p{
+    padding-left: 60px;
+    width: 589px;
+    height: 152px;
+    color: #737c85;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+h2 {
+    padding-left: 60px;
+    width: 450px;
+    height: 23px;
+    color: #fe992a;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.button_next {
+    width: 30px;
+    height: 30px;
+    background-color: #ffba6e;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    margin-left: 621px;
+    margin-top: 321px;
+    position: absolute;
+
+}
+
+.button_prev {
+    width: 30px;
+    height: 30px;
+    background-color: #ffba6e;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    margin-left: 591px;
+    margin-top: 321px;
+    position: absolute;
+
+}
+
+.button_sign {
+    width: 6px;
+    height: 9px;
+    color: #ffffff;
+    font-family: Quicksand;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 8.52px;
+
+}
+
+.button_next:hover{
+    background-color: #fe992a;
+}
+
+.button_prev:hover{
+    background-color: #fe992a;
+}
+
+.footer {
+    height: 474px;
+    margin-top: 600px;
+    background: url('../img/rectangle_footer.png');
+}
+
+.footer_content > ul{
+    float: left;
+    display: flex;
+    font-family: Lato;
+    position: absolute;
+    padding-top: 48px;
+}
+
+.footer_content > ul li a{
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+    list-style-type: none;
+    padding-left: 630px;
+    width: 100px;
+    font-family: "Quicksand";
+}
+
+.footer_content ul{
+    width: 182px;
+    height: 132px;
+    text-decoration: none;
+    font-family: "Quicksand";
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-type: none;
+
+}
+
+.footer_topic {
+    font-weight: bold;
+}
+
+.footer_about_inf {
+    position: absolute;
+    padding-left: 319px;
+    padding-top: 50px;
+    color: #ffffff;
+}
